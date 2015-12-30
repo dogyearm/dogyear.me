@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dogyear.me</title>
-    <link>http://dogyear.me/</link>
-    <description>Recent content on dogyear.me</description>
+    <title>Writings on dogyear.me</title>
+    <link>http://dogyear.me/writing/</link>
+    <description>Recent content in Writings on dogyear.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (C) 2015-2016 Yutaro Iwamoto All Right Reserved.</copyright>
     <lastBuildDate>Wed, 30 Dec 2015 17:27:52 +0900</lastBuildDate>
-    <atom:link href="http://dogyear.me/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://dogyear.me/writing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>分散型市場予測システムAugurについて</title>
