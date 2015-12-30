@@ -1,0 +1,14 @@
+{{ partial "head.html" }}
+{{ partial "header.html" . }}
+      <section id="main">
+        <p>This is the personal homepage of Yutaro Iwamoto. I like building software (using Ruby, PHP, Go Lang), cooking and music. I live in Tokyo, Japan. In case you want to contact me,  sendel ectronic mail to <a href="mailto:dogyear.iwmt@gmail.com">dogyear.iwmt@gmail.com</a>.</p>
+        <p>I'm currently looking for work. If you need a helping hand, check my résumé.</p>
+        <p>=====</p>
+        <h2>Writing</h2>
+        <div>
+{{ range .Data.Pages }}
+{{ .Render "summary" }}
+{{ end }}
+        </div>
+      </section>
+{{ partial "footer.html" . }}
