@@ -1,6 +1,7 @@
 /* single-column styling */
 
 .column {
+    max-width: 35em;
     min-height: 100%;
     left: 0;
     right: 0;
